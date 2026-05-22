@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
               <div className="h-8 w-px bg-white/10" />
               <div className="flex flex-col">
                 <span className="text-[8px] tracking-[0.4em] font-light opacity-30 uppercase text-white">Design · Art · Culture</span>
-                <span className="text-[9px] font-serif-sc tracking-[0.4em] text-white/60 mt-0.5">达成于心 · 成功于行</span>
+                <span className="text-[9px] font-serif-sc tracking-[0.4em] text-white/60 mt-0.5">达于心 · 成于行</span>
               </div>
             </div>
             
@@ -127,8 +127,8 @@ const Footer: React.FC = () => {
                 >
                   <MapPin size={16} className="mt-0.5 text-[#c5a059] flex-shrink-0" />
                   <div className="text-xs md:text-sm leading-relaxed">
-                    <p className="text-white/80 group-hover:text-[#c5a059] transition-colors">达成文化总部 / 导航前往</p>
-                    <p className="text-white/40 mt-0.5 font-light group-hover:text-white transition-colors underline underline-offset-2 decoration-[#c5a059]/20">中国·重庆·两江新区万邦国新中心V3元·创</p>
+                    <p className="text-white/80 group-hover:text-[#c5a059] transition-colors">DAC·达成文化总部 / 导航前往</p>
+                    <p className="text-white/40 mt-0.5 font-light group-hover:text-white transition-colors underline underline-offset-2 decoration-[#c5a059]/20">中国·重庆·两江新区万邦国新中心B栋3层V3元·创</p>
                   </div>
                 </a>
               </li>
