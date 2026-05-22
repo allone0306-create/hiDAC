@@ -15,7 +15,7 @@ const About: React.FC = () => {
           <div className="space-y-6">
             <span className="text-[10px] tracking-[0.5em] text-white/30 uppercase font-mono block">Profile / Introduction</span>
             <h2 className="text-4xl md:text-6xl font-serif-sc leading-tight text-white/90 underline underline-offset-[24px] decoration-[#c5a059]/20">
-              我们不是<br />设计公司。
+              我们不只是<br />设计公司。
             </h2>
           </div>
           
