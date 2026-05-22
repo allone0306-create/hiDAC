@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    background-color: #0a0a0a;
+    color: #9f9f9f; /* Soft mineral slate grey to reduce OLED eye strain */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.8; /* Perfect golden line-height for body copy */
+    letter-spacing: 0.04em; /* Breathing room for dense Chinese blocks */
+  }
+
+  /* Luxury Editorial Headings */
+  h1, h2, h3, h4, h5, h6, .font-serif-sc {
+    font-family: 'Noto Serif SC', "Georgia", "Nimbus Roman No9 L", "Songti SC", serif;
+    color: #f5f5f5; /* Warm off-white rather than pure harsh #ffffff */
+    font-weight: 600;
+    line-height: 1.35;
+    letter-spacing: -0.01em; /* Tight tracking for large serif headings */
+  }
+}
+
+/* Typographic & Layout System Helpers */
+.font-serif-sc {
+  font-family: 'Noto Serif SC', serif;
+}
+
+/* Custom luxury scrollbar styling */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 0.3);
+}
+
+/* Material-integrated soft embossed card styling for dark UI */
+.embossed-section {
+  position: relative;
+  background-color: #101010;
+  box-shadow: 
+    12px 12px 30px rgba(0, 0, 0, 0.65),
+    -12px -12px 30px rgba(255, 255, 255, 0.015),
+    inset 1px 1px 1px rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+.embossed-section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(255, 255, 255, 0.018) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Pulpy organic wood-hemp noise background overlay */
+.noise-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 1024 1024' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='pulp'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.35' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23pulp)'/%3E%3C/svg%3E");
+}
+
+/* Mobile touch target optimizer */
+.tap-target-min {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Smooth transitions */
+.transition-luxury {
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
