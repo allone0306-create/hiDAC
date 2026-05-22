@@ -66,7 +66,7 @@ const SecondLifeSystem: React.FC = () => {
           className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-20 items-end"
         >
           <div className="lg:col-span-8 space-y-4">
-            <span className="text-[10px] tracking-[0.6em] text-white/30 uppercase font-mono block">Vol. 06 / 第二生活系统</span>
+            <span className="text-[10px] tracking-[0.6em] text-white/30 uppercase font-mono block"></span>
             <h1 className="text-4xl md:text-7xl font-serif-sc leading-tight text-white/90">
               定义未来的<br />
               <span className="italic font-light text-[#c5a059]">旅居生活方式。</span>
