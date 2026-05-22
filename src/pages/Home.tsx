@@ -291,7 +291,7 @@ const Home: React.FC = () => {
                 <div className="w-16 h-16 rounded-full border border-[#c5a059]/50 flex items-center justify-center text-white backdrop-blur-md bg-black/20">
                   <div className="ml-1.5 w-0 h-0 border-t-[8px] border-t-transparent border-l-[14px] border-l-[#c5a059] border-b-[8px] border-b-transparent" />
                 </div>
-                <span className="text-[10px] tracking-[0.4em] text-white/50 uppercase font-mono">点击播放沉浸式企业符号</span>
+                <span className="text-[10px] tracking-[0.4em] text-white/50 uppercase font-mono">点击播放</span>
               </motion.div>
             )}
           </AnimatePresence>
