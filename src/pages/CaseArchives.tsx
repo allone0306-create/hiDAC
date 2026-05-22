@@ -236,7 +236,7 @@ export const casesData: CaseItem[] = [
     en: 'Qinghai Lake Ecological Reserve',
     type: '文旅',
     category: '文旅综合体 / Complex',
-    img: 'https://pub-655d319cb92e4da68aab5b9d0f23b929.r2.dev/%E7%9F%B3%E5%A4%B3.jpg',
+    img: 'https://pub-655d319cb92e4da68aab5b9d0f23b929.r2.dev/%E7%9F%B3%E5%A4%B4.jpg',
     designerView: '秉持“生态优先、保护为基”，紧扣“共抓大保护、不搞大开发”，以创建国际生态旅游目的地示范区为目标，严格守护青藏高原生态屏障与生物多样性。构建“一芯一环多带”发展格局，依托“中国最美湖泊”的高原风光，打造生态观光、自然教育、环湖自驾、星空露营与民族文化体验五大产品体系。',
     metrics: [
       { label: '核心底线', value: '生态优先' },
