@@ -151,7 +151,7 @@ export const casesData: CaseItem[] = [
     en: 'Yorkville Villa',
     type: '私宅',
     category: '私宅 / Villa',
-    img: 'https://pub-655d319cb92e4da68aab5b9d0f23b929.r2.dev/%E7%BA%A6%E5%85%8B%E9%83%A1%E7%8B%AC%E6%A0%8B%E5%88%AB%E5%A2%85/14%20WechatIMG8549.jpg',
+    img: 'https://0fca83c8.cloudflare-imgbed-b1x.pages.dev/file/约克郡独栋别墅/1779280179151_8_WechatIMG8545-2.webp',
     designerView: '本项目以“流动线条包裹多元生活场景”为核心，打破传统空间的刻板边界，用柔和有机的曲线语言串联不同功能区。公区融合曲线与艺术，客厅以奶油色弧形沙发为轴，呼应墙面抽象艺术画的流动感；过渡空间采用流畅的旋转楼梯，白色哑光护板搭配玻璃扶手，使原木踏步与墙面装置产生呼应，成为空间的“动态雕塑”。',
     metrics: [
       { label: '核心元素', value: '流动线条' },
